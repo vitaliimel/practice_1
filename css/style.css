@@ -1,0 +1,289 @@
+/*Fonts*/
+
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,300,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,300,500,600,700,800,900&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+html,
+body {
+   height: 100%;
+}
+html {
+   font-size: 16px;
+}
+body {
+   line-height: 1;
+   font-weight: 400;
+   font-family: "Roboto", sans-serif;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   background-color: #f5f5f5;
+}
+
+/* --------------- */
+
+.container {
+   max-width: 1040px;
+   margin: 0px auto;
+   background-color: #ffffff;
+}
+
+/*---------------HEADER---------------*/
+
+/*---------------MAIN-----------------*/
+/*----------------1BLOCK 1TASK---------*/
+.section {
+   padding: 100px 87px 0px 87px;
+   margin-top: 20px;
+   background: url("../img/Gears.png") 100% 0 no-repeat;
+}
+.main-logo {
+   background: url("../img/icon/small_logo.svg") 0 0 no-repeat;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 27px;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color: #4b4b4b;
+   padding: 0px 0px 0px 35px;
+   margin-bottom: 29px;
+}
+.title {
+   max-width: 585px;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #02133c;
+   margin-bottom: 36px;
+}
+
+.subtitle-text {
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #4b4b4b;
+   margin-bottom: 54px;
+}
+
+.main-img {
+   margin-bottom: -120px;
+   max-width: 848px;
+   max-height: 420px;
+   width: 100%;
+   height: auto;
+}
+
+/*----------------1BLOCK 2TASK---------*/
+
+.section-two {
+   background-color: #f5f5f5;
+   padding: 200px 3px 0px 3px;
+}
+.section-two-logo {
+   background: url("../img/icon/small_logo.svg") 0 0 no-repeat;
+   padding: 0px 0px 0px 35px;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 27px;
+   letter-spacing: 2.5px;
+   margin-bottom: 33px;
+}
+.title-two {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #02133c;
+   margin-bottom: 78px;
+}
+.card-container-one {
+   margin-bottom: 24px;
+}
+.card-one {
+   max-height: 100%;
+   max-width: 320px;
+   background-color: #ffffff;
+   padding: 50px 44px 50px 44px;
+   margin: 0 auto;
+}
+
+.box-card-logo-one {
+   margin-bottom: 33px;
+}
+.card-logo-one {
+   display: block;
+   margin: 0 auto;
+}
+.card-title-one-container {
+   text-align: center;
+   margin-bottom: 20px;
+}
+.card-title-one {
+   display: inline-block;
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+   text-align: center;
+   color: #02133c;
+}
+.card-text-one {
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: 0.15px;
+   color: #4b4b4b;
+}
+.card-container-two {
+   margin-bottom: 30px;
+}
+
+.card-two {
+   max-height: 100%;
+   max-width: 320px;
+   background-color: #ffffff;
+   padding: 50px 44px 50px 44px;
+   margin: 0 auto;
+   box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.2);
+}
+.box-card-logo-two {
+   margin-bottom: 33px;
+}
+.card-logo-two {
+   display: block;
+   margin: 0 auto;
+}
+.card-title-two {
+   display: inline-block;
+
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+   text-align: center;
+   color: #02133c;
+}
+.card-text-two {
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: 0.15px;
+   color: #4b4b4b;
+}
+.card-title-two-container {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+/*----------------BLOCK 2 1TASK--------------------*/
+
+.new-block {
+   background-color: #ffffff;
+   max-width: 1040px;
+   margin: 0 auto;
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   padding-left: 3px;
+}
+
+.text span {
+   display: inline-block;
+   font-weight: 600;
+   line-height: 26px;
+   color: #000000;
+}
+.text p {
+   line-height: 26px;
+   color: #000000;
+}
+.text li {
+   line-height: 26px;
+   color: #000000;
+}
+.text,
+span,
+p {
+   margin-bottom: 34px;
+   text-align: left;
+}
+.new-block__title {
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 48px;
+   color: #000000;
+   margin-bottom: 25px;
+   padding-top: 10px;
+}
+.new-block__subtitle {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   color: #000000;
+   margin-bottom: 65px;
+}
+
+.text__definitions {
+   margin-bottom: 35px;
+}
+
+.text__delivery {
+   margin-bottom: 10px;
+}
+
+/*----------------BLOCK 2 2TASK--------------------*/
+.card {
+   max-width: 570px;
+   margin: 0 auto;
+   background-color: floralwhite;
+   border-radius: 15px;
+   box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card__body {
+   padding: 30px 20px 30px 40px;
+}
+.card__logo {
+   display: block;
+   margin-bottom: 9px;
+}
+.card__title {
+   display: inline-block;
+   font-weight: 500;
+   font-size: 44px;
+   line-height: 58px;
+   color: #000000;
+}
+.card__text {
+   font-size: 18px;
+   line-height: 26px;
+   color: #000000;
+}
+/*----------------FOOTER--------------*/
